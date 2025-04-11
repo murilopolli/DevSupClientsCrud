@@ -11,7 +11,7 @@ public class ClientDTO {
 
 	private Long id;
 
-	@NotBlank(message = "Campo requerido")
+	@NotBlank(message = "Nome não pode ser vazio")
 	private String name;
 	
 	private String cpf;
@@ -20,7 +20,7 @@ public class ClientDTO {
 	
 	private LocalDate birthDate;
 	
-	@PastOrPresent
+	@PastOrPresent(message = "Data de Nascimento não pode ser data futura")
 	private Integer children;
 
 	public ClientDTO() {

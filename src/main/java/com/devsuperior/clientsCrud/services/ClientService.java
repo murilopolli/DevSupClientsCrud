@@ -57,12 +57,12 @@ public class ClientService {
 	
 	@Transactional(propagation = Propagation.SUPPORTS)
 	public void delete(Long id) {
-		if (!repository.existsById(id)) {
+		if (!repository.existsById(id)) 
 			throw new ResourceNotFoundException("Recurso não encontrado");
-		}
+		
 		try {
 	       	repository.deleteById(id);    		
-		}catch (DataIntegrityViolationException e) {
+		} catch (DataIntegrityViolationException e) {
 	       	throw new DataBaseException("Falha de integridade referencial");
 	   	}
 
