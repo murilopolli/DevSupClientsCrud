@@ -3,6 +3,7 @@ package com.devsuperior.clientsCrud.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.devsuperior.clientsCrud.dtos.ClientDTO;
@@ -10,6 +11,7 @@ import com.devsuperior.clientsCrud.entities.Client;
 import com.devsuperior.clientsCrud.repositories.ClientRepository;
 import com.devsuperior.clientsCrud.services.exceptions.ResourceNotFoundException;
 
+@Service
 public class ClientService {
 
 	@Autowired

@@ -1,0 +1,10 @@
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Murilo', '001.234.567-89', 10000.0, '1983-08-08', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Giovana', '001.234.567-88', 11000.0, '1983-07-06', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Leonardo', '001.234.567-87', 0.0, '2024-03-16', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Sueli', '001.234.567-86', 5000.0, '1950-08-03', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Pedro', '001.234.567-85', 20000.0, '1949-04-30', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Mauricio', '001.234.567-84', 10000.0, '1974-03-03', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Michel', '001.234.567-83', 10000.0, '1980-02-18', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Nicolas', '001.234.567-82', 15000.0, '2004-11-10', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Alexandre', '001.234.567-81', 0.0, '2019-10-05', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Andrea', '001.234.567-80', 100000.0, '1963-08-08', 2);
